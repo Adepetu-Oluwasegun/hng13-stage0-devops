@@ -26,22 +26,22 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 5. **Security Group:**
    - Allow inbound traffic on ports 22 (SSH), 80 (HTTP)
 6. **Launch Instance:**
-   - Download the private key (e.g., `.pem`) for SSH access.
+   - Download the private key (e.g., `hng.pem`) for SSH access.
 
 ---
 
 ## Installing Nginx Web Server
 1. **Connect to the Instance:**
    ```bash
-   ssh -i Altschool-2nd-Semester-Exam-Server.pem ubuntu@<your-public-ip>
+   ssh -i hng.pem ubuntu@<your-public-ip>
    ```
 2. **Update the Server:**
    ```bash
-   sudo apt update && sudo apt upgrade -y
+   sudo apt get update 
    ```
 3. **Install Nginx:**
    ```bash
-   sudo apt install nginx -y
+   sudo apt-get install nginx -y
    ```
 4. **Start Nginx:**
    ```bash
@@ -65,7 +65,6 @@ This project involves provisioning a Linux server on AWS, installing a web serve
    ```
 3. **Add HTML Content:**
    ```html
-    CopyEdit
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -96,7 +95,7 @@ This project involves provisioning a Linux server on AWS, installing a web serve
     </head>
     <body>
       <div class="container">
-        <h1>Welcome to DevOps Stage 0 - Oluwasegun Adepetu/@johndoe</h1>
+        <h1>Welcome to DevOps Stage 0 - Oluwasegun Adepetu/@Adepetu Oluwasegun</h1>
         <p>Successfully deployed on AWS</p>
         <p class="timestamp">Deployed: 17/10/2025</p>
     </div>
@@ -116,7 +115,7 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 
 ## Networking and Security
 1. **Security Group Configuration:**
-   - Allow HTTP (port 80) and HTTPS (port 443) traffic.
+   - Allow HTTP (port 80).
    - Make sure SSH (port 22) is restricted to your IP for security.
 2. **Verify Nginx Configuration:**
    ```bash
@@ -131,5 +130,10 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 
 ## Testing the Web Page
 1. **Access the Web Page:**
-   - Open a browser and visit `<your public-ip>`.
+   - Open a browser and visit `http://98.81.211.215/`.
 2. **Verify HTML Page Displays Properly.**
+
+---
+
+## Public IP Address
+`http://98.81.211.215/`

@@ -144,4 +144,3 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 Below is the screenshot of the Nginx default homepage displayed when accessing the server's public IP on **October 17, 2025**:
 ![Nginx Homepage Public IP - 17-10-2025](nginx_homepage_public_ip_17-10-2025.png)
 
-![Public Ip display]()

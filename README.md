@@ -19,7 +19,7 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 2. **Choose AMI:**
    - Select Ubuntu 24.04 LTS.
 3. **Instance Type:**
-   - Choose t2.micro (free tier eligible).
+   - Choose t3.micro (free tier eligible).
 4. **Configure Instance:**
    - Add necessary tags (Name: ).
    - See to it that SSH key pair is created and downloaded.

@@ -8,7 +8,7 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 - [Networking and Security](#networking-and-security)
 - [Testing the Web Page](#testing-the-web-page)
 - [Public IP Address](#public-ip-address)
-- [Screenshot](#screenshot)
+- [Nginx Homepage (Accessed via Public IP)](#Nginx-Homepage-Accessed-via-Public-IP)
 
 ---
 

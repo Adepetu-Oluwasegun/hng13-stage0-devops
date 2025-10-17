@@ -130,13 +130,13 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 
 ## Testing the Web Page
 1. **Access the Web Page:**
-   - Open a browser and visit `http://98.81.211.215/`.
+   - Open a browser and visit `98.81.211.215`.
 2. **Verify HTML Page Displays Properly.**
 
 ---
 
 ## Public IP Address
-`http://98.81.211.215/`
+`98.81.211.215`
 
 ---
 
